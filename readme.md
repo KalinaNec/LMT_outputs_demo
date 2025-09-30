@@ -22,7 +22,7 @@ social_spatial_dom_index.csv
 PNGs: bars, components, heatmap, combined indices
 
 Quick start:
-
+#Terminal
 # (optional) environment
 conda create -n lmt_social python=3.11 -y
 conda activate lmt_social
