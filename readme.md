@@ -27,7 +27,7 @@
   # (optional) environment
   conda create -n lmt_social python=3.11 -y
   conda activate lmt_social
-  pip install -r requirements-lmt.txt
+  pip install -r requirements.txt
   
   # run
   python LMT.py path/to/Recording.sqlite out/Recording --species mouse
@@ -72,7 +72,7 @@
   │      ├─ social_spatial_index.csv  OR  social_spatial_dom_index.csv
   │      └─ dominance_index.csv
   │  └─ <GROUP_B>/ ...
-  └─ requirements-*.txt
+  └─ requirements.txt
   ```
   Install & run
   ```
