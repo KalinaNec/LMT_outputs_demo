@@ -1,3 +1,20 @@
+Live-Mouse-Tracker (LMT) pipeline + T-maze stats
+
+This repo contains two complementary pieces:
+
+LMT.py — computes Social, Spatial, and Dominance indices from a single LMT *.sqlite recording, and exports harmonized CSVs + publication-ready figures.
+
+stats.py — correlates those LMT indices with T-maze performance (learning slope and mean accuracy) using Spearman’s ρ with permutation p-values, plus per-group meta-analysis and forest plots.
+
+Both scripts share a unified visual theme for consistent figures.
+
+Showcase
+
+The repo also includes a compact EcoHab vs LMT dashboard snapshot built from the current comparison outputs:
+
+![EcoHab vs LMT dashboard](figures/ecohab_lmt_dashboard.png)
+
+That figure is meant as a quick visual summary of how affiliation-style signals from EcoHab line up with LMT affiliation and dominance summaries across subsets.
 1) LMT pipeline (LMT.py)
 
   What it computes
