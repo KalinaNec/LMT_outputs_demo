@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/
+figures/
+tables/
+data/
+*.sqlite
+*.h5
+*.parquet
